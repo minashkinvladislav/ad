@@ -73,7 +73,7 @@ elif args.mode == 'train':
         n_tasks=n_tasks
     )
 
-    agent_to_distill = str(ThompsonSamplingAgent.name)
+    agent_to_distill = 'ThompsonSamplingAgent'
     data = torch.stack((
         torch.tensor(states[agent_to_distill], dtype=torch.long)[:, :],
         torch.tensor(actions[agent_to_distill], dtype=torch.long)[:, :],
