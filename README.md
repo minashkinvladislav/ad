@@ -5,6 +5,8 @@ Transformer with Algorithm Destillation in a multi-armed bandit task.
 
 ## Local installation
 
+First of all, make sure that you have `python>=3.10`installed.
+
 ```bash
 cd $HOME && git clone https://github.com/minashkinvladislav/ad.git
 cd $HOME/ad
