@@ -1,4 +1,4 @@
-# Algorithm Destillation & Multi-Armed Bandits
+# Algorithm Distillation & Multi-Armed Bandits
 
 This repository contents source code used to train & evaluate
 Transformer with Algorithm Destillation in a multi-armed bandit task.
